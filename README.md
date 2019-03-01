@@ -9,4 +9,4 @@ IF TextStr IN ['One','Two','Three'] THEN ...
 
 to check if the string is one of multiple values (case-INsensitive check, of course).
 
-To use it, simply USE HeartWare.Strings in your application and declare your case-INsensitive strings as type TextString. You can use them as ordinary strings, except for VAR parameters, ie. you can assign it to other string expressions, or use it in a string expression. You cannot, however use it in DELETE, INSERT and the like procedures, where the string to operate on is a VAR parameter, but it should be easy to implement overloads to handle this.
+To use it, simply USE HeartWare.Strings in your application and declare your case-INsensitive strings as type TextString. You can use them as ordinary strings, except for VAR parameters, ie. you can assign it to other string variables, or use it in a string expression. You cannot, however use it in DELETE, INSERT and the like procedures, where the string to operate on is a VAR parameter, but it should be easy to implement overloads to handle this.
